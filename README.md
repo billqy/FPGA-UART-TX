@@ -1,6 +1,6 @@
 # FPGA Switch UART Project
 
-This project reads a switch on the Basys3 FPGA, sends its state over UART, and plots it live using Python.
+This project reads a switch on the Basys3 FPGA, sends its state via a custom UART transmitter, and plots it live using Python.
 
 ## Features
 - Reads a single input switch.
