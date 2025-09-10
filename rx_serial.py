@@ -9,7 +9,7 @@ import serial
 # Serial config
 ser = serial.Serial("COM4", baudrate=115200, timeout=0.01)
 
-# === Plot config ===
+# Plot config
 window_size = 500
 xdata = deque(maxlen=window_size)
 ydata = deque(maxlen=window_size)
@@ -47,3 +47,4 @@ ani = animation.FuncAnimation(
 )
 
 plt.show()
+
