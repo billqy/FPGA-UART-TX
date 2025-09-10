@@ -3,7 +3,7 @@ use IEEE.std_logic_1164.all;
 
 entity Top_Level is
     Port(
-        clk          : in  std_logic;   -- 50 MHz system clock
+        clk          : in  std_logic;   -- 100 MHz system clock
         reset        : in  std_logic;   -- active-high reset
         input_signal : in  std_logic;   -- sampled input (e.g., button/switch)
         input_high   : out std_logic;
@@ -77,3 +77,4 @@ begin
     end process;
 
 end Behavioral;
+
